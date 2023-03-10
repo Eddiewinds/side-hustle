@@ -1,0 +1,19 @@
+body {
+  background-color: goldenrod;
+  color: blueviolet;
+  padding: 0%;
+  margin: 0%;
+}
+form {
+  justify-content: center;
+ margin: 50px;
+}
+h1 {
+    color: aqua;
+}
+
+button {
+  background-color: aqua;
+  border-style: none;git
+  
+}
