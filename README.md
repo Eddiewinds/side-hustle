@@ -1,4 +1,4 @@
-# side-hustle
+## side-hustle
 
 This a task from the SideHusle week one assessment for the *Frontend Development Learning Path*. We were asked to "Create a simple form with the following features:
 1. Takes in Name, email address, Phone number, Gender and Password 
