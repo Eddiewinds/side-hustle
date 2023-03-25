@@ -1,5 +1,6 @@
 body {
   background-color: #38444D;
+<<<<<<< HEAD
   padding: auto;
   margin-top: 60px;
   position: absolute;
@@ -46,4 +47,28 @@ img {
 span {
   color: #52A450;
   font-weight: 100;
+=======
+  color: blueviolet;
+  padding: auto;
+  margin: 25px;
+  position: absolute;
+}
+form {
+  background-color: #E7E9EB;
+  justify-content: center;
+  padding: 30px 20px 70px;
+  margin-top: 50px;
+  margin-left: 20px ;
+  margin: bottom 50px; ;
+  margin: right 20px; ;
+}
+h1 {
+    color: teal;
+}
+
+button {
+  background-color: aqua;
+  border-style: none;
+  
+>>>>>>> c06f2812986708607ed014130427d24c9e5637aa
 }
