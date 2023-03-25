@@ -1,19 +1,49 @@
 body {
-  background-color: goldenrod;
-  color: blueviolet;
-  padding: 0%;
-  margin: 0%;
-}
-form {
-  justify-content: center;
- margin: 50px;
-}
-h1 {
-    color: aqua;
+  background-color: #38444D;
+  padding: auto;
+  margin-top: 60px;
+  position: absolute;
 }
 
-button {
-  background-color: aqua;
-  border-style: none;git
-  
+.signup {
+  margin:auto;
+	background-color: #ffffff;
+	width: 30%;
+	margin-top: auto;
+  margin-bottom: auto;
+	text-align: center;
+  color: #202520;
+	padding: 20px;
+}
+
+h2 {
+  color: #0E1116;
+  text-align: center;
+}
+
+img {
+  height: 20%;
+  width: 100%;
+}
+
+.big-input {
+	padding: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	border: solid #52A450;
+	border-left: solid 20px #52A450;
+}
+
+.btn {
+	background-color: #202520;
+	width: 100%;
+	border: solid #202520;
+	border-radius: 25px;
+  margin-top: 20px;
+	padding: 2%;
+}
+
+span {
+  color: #52A450;
+  font-weight: 100;
 }

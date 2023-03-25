@@ -10,51 +10,17 @@
     />
   </head>
   <body>
-    
-    <form>
-      <h1>Fill the form below</h1>
-      <table>
-        <tr>
-          <td><label for="fullname">Name</label></td>
-          <td><input type="text" name="fullname" id="fullname" required /></td>
-        </tr>
-
-        <tr>
-          <td><label for="email">Email Address</label></td>
-          <td><input type="email" name="email" id="email" required /></td>
-        </tr>
-
-       
-        <tr>
-          <td><label for="telephone">Phone Number</label></td>
-          <td>
-            <input type="number" name="telephone" id="telephone" required />
-          </td>
-        </tr>
-
-
-        <tr>
-          <td><input type="radio" name="gender" value="male" />Male</td>
-        </tr>
-
-        <tr>
-          <td><input type="radio" name="gender" value="female" />Female</td>
-        </tr>
-
-     
-        <tr>
-          <td>
-            <label for="Password" name="password" id="password">Password</label>
-          </td>
-          <td><input type="password" required /></td>
-        </tr>
-
-
-      </table>
-      
-      
-      <button type="button" onclick="alert('Form submitted successfully.')">Submit</button>
-    
-    </form>
-  </body>
+    <div class="signup">
+      <img src="images/SH.png">
+      <h2>Fill the form below</h2>
+      <form >
+        <input type="text"placeholder="Fullname" class="big-input" required/>
+				<input type="email" placeholder="Email id" class="big-input" required/>
+				<input type="number"placeholder="Phone" class="big-input" required/>
+				<input type="password" placeholder="Password " class="big-input" required/>
+        <input type="radio" name="gender" value="male" />Male
+        <input type="radio" name="gender" value="female" />Female
+        <button class="btn" type="button" onclick="alert('Form submitted successfully.')"><span>Submit</span></button>
+      </form>
+</body>
 </html>
